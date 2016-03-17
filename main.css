@@ -38,8 +38,8 @@ p {
 
 #footer {
   font-size: 0.75rem;
-  
-  
+
+
 }
 /*    OLD COMMENTS    */
 
@@ -84,10 +84,6 @@ nav li {
   font-size: 32px;
 }
 
-nav ul {
-  display: inline;
-}
-
 .contact-btn {
   float: right;
 }
@@ -104,11 +100,10 @@ nav ul {
 	top: 2px;
 }
 
-#ul1 {
+.ul1 {
   height: 60px;
   line-height: 60px;
   color: #204156;
   text-decoration: none;
   text-align: left;
 }
-
