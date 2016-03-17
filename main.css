@@ -1,4 +1,4 @@
-.body {
+body {
 	height: 100%;
 	margin: 0;
 	text-align: center;
@@ -104,10 +104,11 @@ nav ul {
 	top: 2px;
 }
 
-#nav1 {
+#ul1 {
   height: 60px;
   line-height: 60px;
   color: #204156;
   text-decoration: none;
+  text-align: left;
 }
 
