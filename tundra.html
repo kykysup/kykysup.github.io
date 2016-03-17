@@ -12,7 +12,7 @@ html, body {
   line-height: 1.5;
 }
 
-.body {
+body {
   font-family: 'Lato', sans-serif;
   background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
@@ -30,7 +30,25 @@ a {
 
 <body>
     <header>
-      <h1 class="page-title">TUNDRA GALLERY</h1>
+
+    <h1 class="page-title">TUNDRA GALLERY
+      <div class="contact-btn" onclick="myFunction()"><a>Contact</a>
+        <script>
+                function myFunction() {
+                  window.confirm("Contact me by email: kyle.mortensenn@gmail.com");
+                }
+        </script>
+    </h1>
+
+      <nav>
+      <ul class="ul1">
+        <li><a href="index.html"><b>Home Page</b></a></li>
+        <li><a href="https://github.com/kykysup/kykysup.github.io"><b>Link to the GitHub Code</b></a></li>
+        <li><a href="antarctica.html"><b>Antarctic</b></a></li>
+        <li><a href="kittens.html"><b>Kittens!!</b></a></li>
+      </ul>
+    </nav>
+
       <p class="page-description">The Tundra Gallery is a collection of photographs from three distinct areas: arctic tundra, alpine tundra, and antarctic tundra. In tundra, the vegetation is composed of dwarf shrubs, sedges and grasses, mosses, and lichens, making for diverse ecology and stunning photos. </p>
     </header>
 
@@ -54,22 +72,5 @@ a {
         <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss6.jpg">
       </figure>
     </div>
-
-      <nav>
-      <ul class="ul1">
-        <li><a href="index.html"><b>Home Page</b></a></li>
-        <li><a href="https://github.com/kykysup/kykysup.github.io"><b>Link to the GitHub Code</b></a></li>
-        <li><a href="antarctica.html"><b>Antarctic</b></a></li>
-        <li><a href="kittens.html"><b>Kittens!!</b></a></li>
-      </ul>
-
-      <div class="contact-btn" onclick="myFunction()"><a>Contact</a>
-        <script>
-                function myFunction() {
-                  window.confirm("Contact me by email: kyle.mortensenn@gmail.com");
-                }
-        </script>
-      </div>
-    </nav>
   </body>
 </html>

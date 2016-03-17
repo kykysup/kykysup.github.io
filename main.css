@@ -23,17 +23,14 @@ h2 {
   color: #ffffff;
   background-image: url("Contents/fractaltime.jpg");
   background-size: cover;
+	text-shadow: 4px 4px blue;
 }
 
-
-p {
-	font-size: 2rem;
-}
-
-.hero a {
+.linkI {
 	color: red;
 	font-size: 2em;
 	text-decoration: none;
+	text-shadow: 3px 3px black;
 }
 
 #footer {
@@ -106,4 +103,29 @@ nav li {
   color: #204156;
   text-decoration: none;
   text-align: left;
+}
+
+/* Kittens.HTML page Styling */
+
+img {
+	width:400px;
+	height:400px;
+}
+
+table, td {
+			border: solid black;
+			border-collapse: collapse;
+}
+
+#hd1 {
+			display: hidden;
+}
+
+#hd2 {
+			text-decoration: none;
+			text-align: right;
+}
+
+.divtb {
+			display: flex;
 }
