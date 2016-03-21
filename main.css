@@ -118,10 +118,12 @@ table, td {
 }
 
 #hd1 {
-			display: hidden;
+			font-weight: bolder;
+			font-size: 30px;
 }
 
 #hd2 {
 			text-decoration: none;
-			text-align: right;
+			font-weight: bolder;
+			font-size: 30px;
 }
