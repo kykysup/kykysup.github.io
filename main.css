@@ -1,4 +1,4 @@
-/* Space Unique Styles */
+/* Space.html Unique Styles */
 
 .page-title {
   text-align: center;
@@ -21,7 +21,7 @@ li {
 }
 
 .gallery {
-   background-image: url("contents/galaxy.jpg");
+   background-image: url("Contents/galaxy.jpg");
    background-position: center top;
    background-size: cover;
    margin-top: 20px;
@@ -92,7 +92,7 @@ h2 {
 }
 
 
-/* Index Styles */
+/* Index.html Styles */
 
 .hero {
    padding: 250px 0;
@@ -121,7 +121,7 @@ h2 {
 /* Kittens.HTML page Styling */
 
 .divTB {
-   background-image: url("contents/galaxy2.jpg");
+   background-image: url("Contents/galaxy2.jpg");
    background-position: center top;
    background-size: cover;
 }
